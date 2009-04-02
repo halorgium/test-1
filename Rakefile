@@ -1,4 +1,3 @@
 task :default do
-  puts "Test 2"
-  exit 2
+  exit 1 if File.exist?("fail")
 end
