@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+date >fail
+git add fail
+git rm -f pass
+git commit -m "Broken" -a
+git push

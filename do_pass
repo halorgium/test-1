@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+date >pass
+git add pass
+git rm -f fail
+git commit -m "Fixed" -a
+git push
