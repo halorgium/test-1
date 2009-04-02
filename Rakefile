@@ -1,4 +1,4 @@
 task :default do
-  puts "Test"
+  puts "Test 2"
   exit 1
 end
