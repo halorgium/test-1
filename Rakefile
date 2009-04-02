@@ -1,4 +1,4 @@
 task :default do
-  puts "ZOMG"
+  puts "Test"
   exit 1
 end
